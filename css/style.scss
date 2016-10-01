@@ -1,0 +1,26 @@
+@import "materialize.css";
+
+.dark-blue-nav {
+	background-color: #131A28
+}
+
+#nav-mobile{
+	li {
+		height: 64px;
+	}
+	
+	li#sign-up {
+		a {
+		    height: 64px;
+		    line-height: 64px;
+		    border-radius: 0;
+		    padding-left: 60px;
+		    padding-right: 60px;
+		}
+	}
+}
+
+.parallax-paragraph {
+	color: 
+}
+
