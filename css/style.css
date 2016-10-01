@@ -4,6 +4,41 @@
 .green-black {
 	background: #08100c
 }
+
+#feedback .row {
+/*	height: 350px;
+*/
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 0px;
+}
+
+#feedback .row .col:first-child {
+	text-align: center;
+}
+
+#re-action {
+	padding-top: 50px;
+}
+
+.new-button {
+	margin: 20px;
+	width: 150px;
+}
+
+#feedback .row .col h5 {
+	color: #fff;
+    font-style: italic;
+    padding-top: 25px;
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+
+#feedback img.circle {
+	/*height: 250px;
+	width: 250px;*/
+	/*margin-top: 50px;*/
+}
 /* Rules for sizing the icon. */
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
