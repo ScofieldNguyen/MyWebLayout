@@ -16,6 +16,13 @@
       .row {
         padding-top: 10px;
       }
+      #map {
+        height: 290px;
+        width: 100%;
+       }
+      #map-content {
+        padding-left: 65px;
+      }
     </style>
 
     <body>
@@ -122,12 +129,15 @@
             </div>
             <div class="col l4">
               <div id="company-address" class="center">
+                <h3>Contact us at</h3>
                 <p>Khu phố 6 - Phường Linh Trung - Quận Thủ Đức - TPHCM</p>
                 <p>Tel: 0943289150</p>
                 <p>Email: foxfizz.support@gmail.com</p>
               </div>
             </div>
-            <div id="Map" class="col l5"></div>
+            <div id="map-content" class="col l4">
+                <div id="map"></div>
+            </div>
           </div>
         <div class="footer-copyright grey darken-4">
           <div class="container">
@@ -140,5 +150,21 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script type="text/javascript" src="js/my_jquery.js"></script>
+      <script>
+                  function initMap() {
+                    var uluru = {lat: 10.884041, lng: 106.782904};
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                      zoom: 15,
+                      center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                      position: uluru,
+                      map: map
+                    });
+                  }
+                </script>
+      <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABPEJ0r7JHtPXOj0hhaftc4LqYq7aso2E&callback=initMap">
+      </script>
     </body>
   </html>
