@@ -13,6 +13,10 @@
 	margin-bottom: 0px;
 }
 
+.no-margin-top {
+	margin-top: 0px !important;
+}
+
 #feedback .row .col:first-child {
 	text-align: center;
 }
@@ -39,6 +43,39 @@
 	width: 250px;*/
 	/*margin-top: 50px;*/
 }
+
+#map {
+	width: 200px;
+	height: 200px;
+	background: white;
+}
+.big-logo {
+	width: 290px;
+	height: 290px;
+}
+#landingpage-footer {
+	padding-top: 20px;
+	margin-top: 0px;
+}
+
+.social-logo img{
+	width: 30px;
+	margin-bottom: 10px;
+}
+
+#landingpage-footer .footer-copyright {
+  overflow: hidden;
+  height: 50px;
+  line-height: 50px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(51, 51, 51, 0.08);
+}
+
+#company-address p {
+	color: white;
+	line-height: 33px;
+}
+
 /* Rules for sizing the icon. */
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
